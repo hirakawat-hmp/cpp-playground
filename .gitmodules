@@ -1,0 +1,3 @@
+[submodule "monte-carlo/Xoshiro"]
+	path = monte-carlo/Xoshiro
+	url = https://github.com/Reputeless/Xoshiro-cpp.git
