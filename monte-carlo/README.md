@@ -7,8 +7,12 @@ C++ ではデフォルトの疑似乱数生成エンジンとして、[メルセ
 特にモンテカルロのように乱数を多用するような実験では速度で大きく差が出る。  
 
 ということで、排他的論理和とビットシフトのみで疑似乱数生成を実現している`Xorshift`を使用したりする。  
-（メルセンヌ・ツイスタほどの乱数の周期性を持つ訳では無いが、実用上は問題ない程度）
-[https://github.com/Reputeless/Xoshiro-cpp](https://github.com/Reputeless/Xoshiro-cpp) からsubmoduleしておく。
+（メルセンヌ・ツイスタほどの乱数の周期性を持つ訳では無いが、実用上は問題ない程度）  
+[https://github.com/Reputeless/Xoshiro-cpp](https://github.com/Reputeless/Xoshiro-cpp) からsubmoduleしておく。  
+
+```bash
+git submodule add https://github.com/Reputeless/Xoshiro-cpp.git Xoshiro 
+```
 
 #### Reference
 * xoshiro / xoroshiro generators and the PRNG shootout: https://prng.di.unimi.it/
