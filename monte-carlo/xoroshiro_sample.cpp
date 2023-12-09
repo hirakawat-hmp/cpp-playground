@@ -1,11 +1,10 @@
 #include <bits/stdc++.h>
 #include "Xoshiro/XoshiroCpp.hpp"
 using namespace std;
+using namespace XoshiroCpp;
 
 int main(){
-    using namespace std;
-    using namespace XoshiroCpp;
-
+    
     const std::uint64_t seed = 12345;
 
     Xoshiro256PlusPlus rng(seed);
@@ -14,7 +13,7 @@ int main(){
 
     for (int i = 0; i < 5; ++i)
     {
-        std::cout << normal_dist(rng) << '\n';
+        cout << normal_dist(rng) << '\n';
     }
 
     printf("Hello World.\n");
