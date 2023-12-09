@@ -1,6 +1,4 @@
-// g++-13 main.cpp -o test -I /opt/homebrew/include/opencv4
 #include <bits/stdc++.h>
-#include <opencv2/opencv.hpp>
 #include "Xoshiro/XoshiroCpp.hpp"
 using namespace std;
 
